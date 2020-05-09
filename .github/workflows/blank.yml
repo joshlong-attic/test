@@ -32,6 +32,6 @@ jobs:
     - name: test the AWS CLI
       run: aws --version && aws ec2 describe-instances
     
-      - name: Script... 
+    - name: Script... 
       run: |
         echo "the region is $AWS_REGION " 
